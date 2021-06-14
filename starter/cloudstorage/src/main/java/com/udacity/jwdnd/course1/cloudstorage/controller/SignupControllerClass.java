@@ -12,11 +12,11 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
 @RequestMapping("/signup")
-public class SignupController {
+public class SignupControllerClass {
 
     private final UserService userService;
 
-    public SignupController(UserService userService){
+    public SignupControllerClass(UserService userService){
         this.userService = userService;
     }
 

@@ -15,13 +15,13 @@ import java.util.Base64;
 
 @Controller
 @RequestMapping("credential")
-public class CredentialController {
+public class CredentialControllerClass {
 
     private final CredentialService credentialService;
     private final EncryptionService encryptionService;
     private final UserService userService;
 
-    public CredentialController(CredentialService credentialService, EncryptionService encryptionService, UserService userService) {
+    public CredentialControllerClass(CredentialService credentialService, EncryptionService encryptionService, UserService userService) {
         this.credentialService = credentialService;
         this.encryptionService = encryptionService;
         this.userService = userService;

@@ -17,7 +17,7 @@ import java.io.IOException;
 
 @Controller
 @RequestMapping("/home")
-public class HomeController {
+public class HomeControllerClass {
 
     private final FileService fileService;
     private final UserService userService;
@@ -25,7 +25,7 @@ public class HomeController {
     private final CredentialService credentialService;;
     private final EncryptionService encryptionService;
 
-    public HomeController(FileService fileService, NoteService noteService, CredentialService credentialService, EncryptionService encryptionService,UserService userService) {
+    public HomeControllerClass(FileService fileService, NoteService noteService, CredentialService credentialService, EncryptionService encryptionService, UserService userService) {
         this.fileService = fileService;
         this.noteService = noteService;
         this.credentialService = credentialService;

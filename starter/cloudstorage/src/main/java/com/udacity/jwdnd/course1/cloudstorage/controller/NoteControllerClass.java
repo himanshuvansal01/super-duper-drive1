@@ -12,12 +12,12 @@ import org.springframework.web.bind.annotation.*;
 
 @Controller
 @RequestMapping("note")
-public class NoteController {
+public class NoteControllerClass {
 
     private final NoteService noteService;
     private final UserService userService;
 
-    public NoteController(NoteService noteService, UserService userService) {
+    public NoteControllerClass(NoteService noteService, UserService userService) {
         this.noteService = noteService;
         this.userService = userService;
     }
